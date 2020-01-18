@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css?family=Quicksand:300,400,700&display=swap");
+@import "reset.css";
+@import "statusbar.css";
+@import "header.css";
+@import "nav.css";
+@import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
+@import "bigScreen.css";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: white;
+  padding: 10px 20px;
+  color: #020202;
+  font-family: "Quicksand", 돋움;
+  font-weight: 400;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+main {
+  animation: mainFadeIn 0.5s ease-in-out;
+}
+
+@keyframes mainFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}

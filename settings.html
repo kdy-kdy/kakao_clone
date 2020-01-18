@@ -8,7 +8,7 @@
       src="https://kit.fontawesome.com/ce55f2c361.js"
       crossorigin="anonymous"
     ></script>
-
+    <link rel="stylesheet" href="css/styles.css" />
     <title>Settings | KaKao</title>
   </head>
   <body>
@@ -28,7 +28,7 @@
       <header class="header">
         <div class="header_column">
           <a class="header_backbtn" href="more.html">
-            <i class="fas fa-arrow-left fa-2x"></i>
+            <i class="fas fa-arrow-left "></i>
           </a>
           <h1 class="header_title">Settings</h1>
         </div>
@@ -39,6 +39,29 @@
         </div>
       </header>
       <main class="settings">
+        <section class="settings_section">
+          <ul class="settings_list">
+            <li class="settings_setting">
+              <span class="settings_icon">
+                <i class="fas fa-bullhorn"></i>
+              </span>
+              <span class="settings_title">Notices</span>
+            </li>
+            <li class="settings_setting">
+              <span class="settings_icon">
+                <i class="fas fa-fill"></i>
+              </span>
+              <span class="settings_title">Kakao Lab</span>
+            </li>
+            <li class="settings_setting">
+              <span class="settings_icon">
+                <i class="fas fa-info-circle"></i>
+              </span>
+              <span class="settings_title">Version</span>
+              <span class="setting_version">8.2.7</span>
+            </li>
+          </ul>
+        </section>
         <section class="settings_section">
           <ul class="settings_list">
             <li class="settings_setting">
@@ -57,9 +80,24 @@
               </span>
               <span class="settings_title">Friends</span>
             </li>
+            <li class="settings_setting">
+              <span class="settings_icon">
+                <i class="far fa-comment"></i>
+              </span>
+              <span class="settings_title">Chats</span>
+            </li>
+            <li class="settings_setting">
+              <span class="settings_icon">
+                <i class="fas fa-sms"></i>
+              </span>
+              <span class="settings_title">SMS Messages</span>
+            </li>
           </ul>
         </section>
       </main>
+    </div>
+    <div class="bigScreen">
+      <span class="bigScreen_text">Make Screen Small</span>
     </div>
   </body>
 </html>

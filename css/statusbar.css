@@ -1,0 +1,13 @@
+.status_bar {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  color: #656565;
+  align-items: center;
+}
+.status_bar i {
+  font-size: 16px;
+}
+.status_bar .status_bar_battery {
+  margin-left: 4px;
+}

@@ -1,0 +1,33 @@
+.find .find_header_list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.find .header_btn_icon {
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  padding: 20px 35px;
+}
+
+.find .find_header_btn {
+  cursor: pointer;
+}
+
+.find .header_btn_title {
+  display: block;
+  font-size: 14px;
+  text-align: center;
+}
+
+.find .find_recommended_container {
+  border-top: 1px solid #f7f7f7;
+  margin-top: 35px;
+}
+
+.find .find_recommended_title {
+  font-size: 12px;
+  margin: 20px 0;
+  opacity: 0.6;
+}

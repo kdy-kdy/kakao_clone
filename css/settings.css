@@ -1,0 +1,23 @@
+.settings .settings_section {
+  padding: 15px 0;
+  border-top: 1px solid #f7f7f7;
+}
+
+.settings_list .settings_setting {
+  padding: 15px 0;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+.settings_setting .setting_version {
+  position: absolute;
+  top: 19px;
+  right: 0;
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.settings_list .settings_icon {
+  margin-right: 25px;
+}

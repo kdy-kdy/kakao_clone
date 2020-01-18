@@ -9,6 +9,8 @@
       crossorigin="anonymous"
     ></script>
 
+    <link rel="stylesheet" href="css/styles.css" />
+
     <title>Chats | KaKao</title>
   </head>
   <body>
@@ -44,19 +46,41 @@
       <main class="chats">
         <ul class="chats_list">
           <li class="chats_chat chat">
-            <a href="chat.html">
-              <div class="chat_column">
+            <a href="chat.html" class="friend chats_chat friends_friend ">
+              <div class="friend_column">
                 <img
-                  class="chat_avatar gloval_avatar"
                   src="images/peng.png"
                   alt="pengsu"
+                  class="friend_avatar media_avatar"
                 />
-                <div class="chat_content">
-                  <span class="chat_username">Fabla</span>
-                  <span class="chat_preview">Going Home</span>
+                <div class="friend_content">
+                  <span class="friend_name">
+                    Pengsu
+                  </span>
+                  <span class="friend_chat_preview">Going Home</span>
                 </div>
               </div>
-              <div class="chat_column">
+              <div class="friend_column">
+                <span class="chat_time">Yesterday</span>
+              </div>
+            </a>
+          </li>
+          <li class="chats_chat chat">
+            <a href="chat.html" class="friend chats_chat friends_friend ">
+              <div class="friend_column">
+                <img
+                  src="images/peng.png"
+                  alt="pengsu"
+                  class="friend_avatar media_avatar"
+                />
+                <div class="friend_content">
+                  <span class="friend_name">
+                    Pengsu
+                  </span>
+                  <span class="friend_chat_preview">Going Home</span>
+                </div>
+              </div>
+              <div class="friend_column">
                 <span class="chat_time">Yesterday</span>
               </div>
             </a>
@@ -72,6 +96,7 @@
           </li>
           <li class="nav_list_item">
             <a href="index.html" class="nav_list_item_link">
+              <div class="nav_alerm"><p>8</p></div>
               <i class="fas fa-comment"></i>
             </a>
           </li>
@@ -87,6 +112,9 @@
           </li>
         </ul>
       </nav>
+      <div class="bigScreen">
+        <span class="bigScreen_text">Make Screen Small</span>
+      </div>
     </div>
   </body>
 </html>
